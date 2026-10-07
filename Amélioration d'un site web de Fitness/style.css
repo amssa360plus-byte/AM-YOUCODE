@@ -84,7 +84,7 @@ button:focus-visible {
 .sur-titre {
   font-size: 14px;
   font-weight: 600;
-  color: #FF6B2C;
+  color: #02013a;
   text-transform: uppercase;
   letter-spacing: 1px;
   margin-bottom: 12px;
@@ -101,13 +101,13 @@ button:focus-visible {
 }
 
 .bouton-principal {
-  background-color: #FF6B2C;
-  border: 1px solid #FF6B2C;
+  background-color: #02013a;
+  border: 1px solid cornflowerblue;
   color: #FFFFFF;
 }
 
 .bouton-principal:hover {
-  background-color: #F05817;
+  background-color: #02013a;
 }
 
 .bouton-secondaire {
@@ -188,7 +188,7 @@ button:focus-visible {
   width: 10px;
   height: 10px;
   margin-left: 8px;
-  background-color: #FF6B2C;
+  background-color: #02013a;
   border-radius: 50%;
 }
 
@@ -204,13 +204,13 @@ button:focus-visible {
 }
 
 .menu a:hover {
-  color: #FF6B2C;
+  color: #02013a;
 }
 
 .menu .lien-actif {
-  color: #FF6B2C;
+  color: #02013a;
   font-weight: 600;
-  border-bottom-color: #FF6B2C;
+  border-bottom-color: #02013a;
 }
 
 .hero {
@@ -283,7 +283,7 @@ button:focus-visible {
   font-family: 'Poppins', Arial, sans-serif;
   font-size: 36px;
   font-weight: 800;
-  color: #FF6B2C;
+  color: #02013a;
 }
 
 .carte-avantage {
@@ -398,12 +398,12 @@ button:focus-visible {
 
 .etiquette-orange {
   background-color: #FFEDE5;
-  color: #C2410C;
+  color: #02013a;
 }
 
 .etiquette-bleue {
   background-color: #DBEAFE;
-  color: #1D4ED8;
+  color: #02013a;
 }
 
 .etiquette-verte {
@@ -452,7 +452,7 @@ button:focus-visible {
   font-family: 'Poppins', Arial, sans-serif;
   font-size: 30px;
   font-weight: 800;
-  color: #FF6B2C;
+  color: #040070;
 }
 
 .prix span {
@@ -488,7 +488,7 @@ button:focus-visible {
 }
 
 .formule-populaire {
-  border: 2px solid #FF6B2C;
+  border: 2px solid #02013a;
   box-shadow: 0 10px 25px rgba(255, 107, 44, 0.2);
 }
 
@@ -498,7 +498,7 @@ button:focus-visible {
   left: 50%;
   transform: translateX(-50%);
   padding: 4px 14px;
-  background-color: #FF6B2C;
+  background-color: #02013a;
   border-radius: 999px;
   font-size: 12px;
   font-weight: 700;
@@ -592,3 +592,9 @@ button:focus-visible {
   color: #94A3B8;
 }
 
+#logo{
+  max-height: 150px;
+  max-width: 200px;
+  width: 120px;
+  height: 120px
+}

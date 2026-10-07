@@ -38,8 +38,22 @@ h2 {
     margin-bottom: 50px;
     margin-left: 50px;
     margin-top: 80px;
-    border-color:#FF6B2C ;
+    border-color:#040070 ;
 }
+#space{
+  text-align: center;
+  position: relative;
+  top: 200px;
+}
+#whlogo{
+
+  max-height: 200px;
+  max-width: 200px;
+  width: 120px;
+  height: 120px
+}
+
+
 
 
 
