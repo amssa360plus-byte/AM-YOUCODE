@@ -2,30 +2,44 @@ h2 {
     text-align: center;
     position: relative;
     top: 30px;
-    
+  
+
 }
- .aa {
+
+.aa {
     display: block;
     text-align: center;
     position: relative;
-    top : 40px;
-   
+    top: 40px;
+
 
 
 }
-#text2{
+
+#text2 {
     text-align: center;
     position: relative;
     top: 60px;
 }
-.text3{
-    text-align: left;
+
+.text3 {
+    text-align: center;
     position: relative;
     top: 70px;
 }
-.email {
-    text-align: left;
+
+.class {
+    border-style: solid;
+    border-radius: 18px;
+    text-align: center;
     position: relative;
-    top: 70px;
+    padding: left 200px;
+    margin: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-top: 80px;
+    border-color:#FF6B2C ;
 }
+
+
 

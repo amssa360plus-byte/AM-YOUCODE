@@ -42,5 +42,18 @@
       <a href="https://www.whatsapp.com/?lang=fr" class="aa"><button>whatsapp</button></a>
       </div>
       <h2 id = text2>saisissez vos information et le probleme que vous rencontez</h2>
-      <h6><label for="h1" class="text3">email</label></h6>
-      <input type="email" class = "email" name="Email"><br></br>
+      <form action="/contact" method="post">
+        <div class = "class">
+    <a id = "Nom1"><h4><label for="nom2">Nom :</label></h4></a>
+    <input type="text" id="nom" name="nom" placeholder="NOM" required>
+    <a id = "mv1"><h4><label for="email">E-mail :</label></h4></a>
+    <input type="email" id="email" name="email" placeholder="Email" required>
+    <a id = "message1"><h3><label for="message">Message :</label></h3></a>
+    <textarea id="message" name="message" placeholder="entre message"></textarea>
+     <button type="submit" id = "Envoyer">Envoyer</button>
+
+        </div>
+
+
+
+      
