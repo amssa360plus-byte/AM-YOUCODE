@@ -1,59 +1,69 @@
 h2 {
-    text-align: center;
-    position: relative;
-    top: 30px;
-  
+  text-align: center;
+  position: relative;
+  top: 30px;
+
 
 }
 
 .aa {
-    display: block;
-    text-align: center;
-    position: relative;
-    top: 40px;
+  display: block;
+  text-align: center;
+  position: relative;
+  top: 40px;
 
 
 
 }
 
 #text2 {
-    text-align: center;
-    position: relative;
-    top: 60px;
+  text-align: center;
+  position: relative;
+  top: 60px;
 }
 
 .text3 {
-    text-align: center;
-    position: relative;
-    top: 70px;
+  text-align: center;
+  position: relative;
+  top: 70px;
 }
 
 .class {
-    border-style: solid;
-    border-radius: 18px;
-    text-align: center;
-    position: relative;
-    padding: left 200px;
-    margin: 50px;
-    margin-bottom: 50px;
-    margin-left: 50px;
-    margin-top: 80px;
-    border-color:#040070 ;
+  
+  width: 200px;
+  border-style: solid;
+  border-radius: 18px;
+  text-align: center;
+  position: relative;
+  padding: left 200px;
+  margin: 100px;
+  margin-bottom: 50px;
+  margin-left: 650px;
+  margin-top: 100px;
+  border-color: #040070;
 }
-#space{
+
+#space {
   text-align: center;
   position: relative;
   top: 200px;
 }
-#whlogo{
 
-  max-height: 200px;
-  max-width: 200px;
-  width: 120px;
-  height: 120px
+#whlogo {
+  width: 50px;
+  height: 50px;
+  left: 600px;
+  
 }
 
+#Envoyer{
+  color: #040070;
 
-
-
-
+}
+#whatsapp{
+  opacity: 0.9;
+}
+#Envoyer:hover{
+  background-color: #120e84a4;
+  color: #120e84a4;
+}
