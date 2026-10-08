@@ -29,18 +29,19 @@ h2 {
 }
 
 .class {
-  
-  width: 200px;
+  width: 250px;
+  height: 200px;
   border-style: solid;
   border-radius: 18px;
   text-align: center;
   position: relative;
   padding: left 200px;
   margin: 100px;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
   margin-left: 650px;
   margin-top: 100px;
   border-color: #040070;
+  text-align: center;
 }
 
 #space {
@@ -57,13 +58,56 @@ h2 {
 }
 
 #Envoyer{
-  color: #040070;
+  border-style: solid;
+  border-radius: 18px;
+  width: 80px;
+  
+  background-color: #040070;
+  color: floralwhite;
 
 }
 #whatsapp{
   opacity: 0.9;
 }
 #Envoyer:hover{
-  background-color: #120e84a4;
-  color: #120e84a4;
+  background-color: #0848d4a4;
+  color: floralwhite;
 }
+#png{
+  left: auto;
+  font-size: 50px;
+}
+#nom{
+  border-style: solid;
+  border-radius: 19px;
+  text-align: center;
+}
+#email1{
+  border-style: solid;
+  border-radius: 20px;
+  text-align: center;
+}
+#message2{
+  border-style: solid;
+  border-radius: 30px;
+  text-align: center;
+}
+@media(Max-width: 767px){
+  .class {
+  width: 240px;
+  height: 200px;
+  border-style: solid;
+  border-radius: 18px;
+  text-align: center;
+  position: relative;
+  padding: left 200px;
+  margin: 100px;
+  margin-bottom: 10px;
+  margin-left: 90px;
+  margin-top: 100px;
+  border-color: #040070;
+  text-align: center;
+
+}
+}
+

@@ -16,13 +16,14 @@
 
   <link rel="stylesheet" href="style.css">
   <link href="stayle2.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css" integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg==" crossorigin="anonymous" referrerpolicy="no-referrer">
 </head>
 
 <body>
 
   <header class="en-tete">
     <div class="conteneur en-tete-contenu">
-      <a href="#accueil" class="logo"><img src="img/transparent-image.png" id="logo">AM Fitness </a>
+      <a href="index.html" class="logo"><img src="img/transparent-image.png" id="logo">AM Fitness </a>
 
       <nav aria-label="Navigation principale">
         <ul class="menu">
@@ -39,17 +40,20 @@
   </header>
    <div>
       <h2>Pour toute question ou demande d'assistance, contactez l'équipe sur WhatsApp.</h2>
-      <a href="https://www.whatsapp.com/?lang=fr" class="aa"><button id = "whatsapp"><img src="img/icons8-whatsapp-50.png" id="whlogo"></button></a>
+      <div id = "png">
+        <a href="https://www.whatsapp.com/?lang=fr" class="aa"><i class="fa-brands fa-whatsapp"></i></a>
+      </div>
+      
       </div>
       <h2 id = text2>saisissez vos information et le probleme que vous rencontez</h2>
       <form action="/contact" method="post">
         <div class = "class">
     <a id = "Nom1"><h4><label for="nom2">Nom :</label></h4></a>
-    <input type="text" id="nom" name="nom" placeholder="NOM" required>
+    <input type="text" id="nom" name="nom" placeholder="Nom" required>
     <a id = "mv1"><h4><label for="email">E-mail :</label></h4></a>
-    <input type="email" id="email" name="email" placeholder="Email" required>
+    <input type="email" id="email1" name="email" placeholder="Email" required>
     <a id = "message1"><h3><label for="message">Message :</label></h3></a>
-    <textarea id="message" name="message" placeholder="entre message"></textarea>
+    <textarea id="message2" name="message" placeholder="entre message"></textarea>
                  <button type="submit" id = "Envoyer">Envoyer</button>
 
         </div>
@@ -76,6 +80,14 @@
           </ul>
         </nav>
       </div>
+      <nav>
+        <ul class="media">
+        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+      </ul>
+      </nav>
+
+      
 
       <div class="pied-bas">
         <p>Adresse : 12 rue des Palmiers, 20000 Casablanca</p>

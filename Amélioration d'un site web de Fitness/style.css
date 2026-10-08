@@ -1,4 +1,4 @@
-* {
+  * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -40,7 +40,7 @@ img {
 
 a:focus-visible,
 button:focus-visible {
-  outline: 3px solid #FF6B2C;
+  outline: 3px solid ;
   outline-offset: 2px;
 }
 
@@ -102,7 +102,7 @@ button:focus-visible {
 
 .bouton-principal {
   background-color: #02013a;
-  border: 1px solid cornflowerblue;
+  border: 1px solid co;
   color: #FFFFFF;
 }
 
@@ -598,3 +598,17 @@ button:focus-visible {
   width: 120px;
   height: 120px
 }
+@media(Max-width:767px){
+  .hero-image {
+  flex: 5;
+  min-width: 0px;
+  height: 200px;
+  
+  object-fit: cover;
+  border-radius: 16px;
+  border: 1px solid #E5E7EB;
+  box-shadow: 0 10px 25px rgba(15, 27, 45, 0.15);
+}
+
+}
+
