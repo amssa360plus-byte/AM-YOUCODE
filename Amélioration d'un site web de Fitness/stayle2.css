@@ -29,7 +29,7 @@ h2 {
 }
 
 .class {
-  width: 250px;
+  width: 240px;
   height: 200px;
   border-style: solid;
   border-radius: 18px;
@@ -42,6 +42,7 @@ h2 {
   margin-top: 100px;
   border-color: #040070;
   text-align: center;
+
 }
 
 #space {
@@ -92,6 +93,14 @@ h2 {
   border-radius: 30px;
   text-align: center;
 }
+.conteneur1{
+  width: 100%;
+  height: 350px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
 @media(Max-width: 767px){
   .class {
   width: 240px;
@@ -109,5 +118,14 @@ h2 {
   text-align: center;
 
 }
+.conteneur1{
+  width: 100%;
+  height: 350px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+
 }
 

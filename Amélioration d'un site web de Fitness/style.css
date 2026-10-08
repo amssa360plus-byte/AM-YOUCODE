@@ -603,12 +603,40 @@ button:focus-visible {
   flex: 5;
   min-width: 0px;
   height: 200px;
+  left: 50px;
   
   object-fit: cover;
   border-radius: 16px;
   border: 1px solid #E5E7EB;
   box-shadow: 0 10px 25px rgba(15, 27, 45, 0.15);
 }
+.en-tete{
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background-color: #FFFFFF;
+  border-bottom: 1px solid #E5E7EB;
+  
+}
+.menu{
+  display: none;
+  
+
+}
+#title1{
+  position: absolute;
+  font-size: 10px;
+}
+.hero-description{
+  position: static;
+  top: 400px;
+}
+.chiffres{
+  top: 300px;
+}
+
+
+
 
 }
 
