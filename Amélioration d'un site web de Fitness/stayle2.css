@@ -109,16 +109,17 @@ h2 {
   border-radius: 18px;
   text-align: center;
   position: relative;
-  padding: left 200px;
+  padding: left 90px;
   margin: 100px;
   margin-bottom: 10px;
-  margin-left: 90px;
+  margin-left: 70px;
   margin-top: 100px;
-  border-color: #040070;
+  border-color: #1208dc;
   text-align: center;
 
 }
 .conteneur1{
+  top: 500px;
   width: 100%;
   height: 350px;
   max-width: 1200px;
@@ -128,4 +129,19 @@ h2 {
 
 
 }
+@media (min-width: 768px) and (max-width: 1023px) {
+    .class {
+  width: 240px;
+  height: 200px;
+  border-style: solid;
+  border-radius: 18px;
+  text-align: center;
+  padding: left 100px;
+  margin: 20px auto;
+  margin-bottom: 10px;
+  margin-top: 100px;
+  border-color: #040070;
+  text-align: center;
+}
 
+}
