@@ -1,0 +1,147 @@
+h2 {
+  text-align: center;
+  position: relative;
+  top: 30px;
+
+
+}
+
+.aa {
+  display: block;
+  text-align: center;
+  position: relative;
+  top: 40px;
+
+
+
+}
+
+#text2 {
+  text-align: center;
+  position: relative;
+  top: 60px;
+}
+
+.text3 {
+  text-align: center;
+  position: relative;
+  top: 70px;
+}
+
+.class {
+  width: 240px;
+  height: 200px;
+  border-style: solid;
+  border-radius: 18px;
+  text-align: center;
+  position: relative;
+  padding: left 200px;
+  margin: 100px;
+  margin-bottom: 10px;
+  margin-left: 650px;
+  margin-top: 100px;
+  border-color: #040070;
+  text-align: center;
+
+}
+
+#space {
+  text-align: center;
+  position: relative;
+  top: 200px;
+}
+
+#whlogo {
+  width: 50px;
+  height: 50px;
+  left: 600px;
+  
+}
+
+#Envoyer{
+  border-style: solid;
+  border-radius: 18px;
+  width: 80px;
+  
+  background-color: #040070;
+  color: floralwhite;
+
+}
+#whatsapp{
+  opacity: 0.9;
+}
+#Envoyer:hover{
+  background-color: #0848d4a4;
+  color: floralwhite;
+}
+#png{
+  left: auto;
+  font-size: 50px;
+}
+#nom{
+  border-style: solid;
+  border-radius: 19px;
+  text-align: center;
+}
+#email1{
+  border-style: solid;
+  border-radius: 20px;
+  text-align: center;
+}
+#message2{
+  border-style: solid;
+  border-radius: 30px;
+  text-align: center;
+}
+.conteneur1{
+  width: 100%;
+  height: 350px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+@media(Max-width: 767px){
+  .class {
+  width: 240px;
+  height: 200px;
+  border-style: solid;
+  border-radius: 18px;
+  text-align: center;
+  position: relative;
+  padding: left 90px;
+  margin: 100px;
+  margin-bottom: 10px;
+  margin-left: 70px;
+  margin-top: 100px;
+  border-color: #1208dc;
+  text-align: center;
+
+}
+.conteneur1{
+  top: 500px;
+  width: 100%;
+  height: 350px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+    .class {
+  width: 240px;
+  height: 200px;
+  border-style: solid;
+  border-radius: 18px;
+  text-align: center;
+  padding: left 100px;
+  margin: 20px auto;
+  margin-bottom: 10px;
+  margin-top: 100px;
+  border-color: #040070;
+  text-align: center;
+}
+
+}
